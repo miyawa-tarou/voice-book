@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Webfont*/
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans);
+
+/*-----------------CSSリセット-----------------*/
+html,body,div,ul,ol,dl,li,dt,dd,p,h1,h2,h3,h4,h5,h6,address,table,tbody,td,th,tr,input{
+	margin:0;
+	padding:0;
+	color:#362e2b;
+	font-family: 'Tenor Sans', "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	}
+h1,h2,h3,h4,h5,h6,address{
+	font-style:normal;
+	font-weight:normal;}
+
+
+/*-----------------全体-----------------*/
+a{
+	color:#362e2b;
+	text-decoration:underline;}
+img,a img{border:none;}
+body{
+	font-size:14px;
+	line-height:24px;
+	background:url(images/header_pat.gif) repeat #ccc fixed;
+	}
+
+/*色は適当です*/
+/*販促ボイドラ1用*/
+body.vd1{
+	background:repeat #236872 fixed;}
+/*販促ボイドラ2用*/
+body.vd2{
+	background:repeat #856475 fixed;}
+
+p{padding:5px 0;}
+
+address{
+	padding:60px 0 20px 0;}
+
+input{
+	width:488px;
+	font-size:14px;
+	border:1px solid #666;
+	padding:5px;
+	margin:0 0 5px 0;}
+
+
+
+/*-----------------見出し　基本設定-----------------*/
+h1{
+	margin:0 20px 0 20px;
+	padding:25px 0 0 0 ;
+	font-size:38px;
+	text-shadow:0 1px 2px #fff;}
+
+h2{
+	font-size:24px;}
+
+
+/*-----------------複数セレクタ一括指定（リファクタリング）　途中で飽きた-----------------*/
+/*　追記で面倒くさかったら変更点のあるセレクタのCSSを末尾に追加してください　*/
+div#contents h2,div#section h3,div#section2 h3{
+	border-bottom:solid 1px #666;}
+address,div#contents h2,div#staff{
+	clear:both;}
+div#contents h2,div#section h3,div#section2 h3,div#staff a,div#links,address,div#top h2{
+	text-align:center;}
+div#top p,div#top a,div#promotion h2{
+	color:#fff;}
+div#countdown p#old,div#promotion h2,div#top p,div#top h2{
+	font-weight:bold;}
+p#social,div#countdown p#old,h1{
+	text-align:right;}
+div#section,div#section2,div#staff a{
+	display:block;
+	float:left;}
+div#countdown,div#promotion,div#contents{
+	background:url(images/transfer.png) repeat;}
+div#contents,div#staff{
+	margin:0 auto;}
+p#social,div#container{
+	width:950px;}
+
+/*-----------------ツイートボタン-----------------*/
+p#social{
+	margin:10px auto;}
+
+/*----------------- #container -----------------*/
+div#container{
+	margin:0 auto 60px auto;
+	}
+
+/*----------------- #header -----------------*/
+div#header,div#header_vd1,div#header_vd2{
+	height:480px;
+	border-radius:20px 20px 0 0 ;
+	box-shadow:1px 1px 3px #666;}
+div#header{
+	/*高さ480px、幅950px　2012AutumnのTOP画像を仮置きしてます*/
+	background:url(images/top.png) repeat left top;}
+body.vd1 div#header{
+	/*販促ボイドラ1用*/
+	background:url(img/n02c.jpg) repeat left top;}
+body.vd2 div#header{
+	/*販促ボイドラ2用*/
+	background:url(img/d02c.jpg) repeat left top;}
+
+/*----------------- #top -----------------*/
+/*　カウントダウンボイスと販促ボイドラのまとめ　*/
+div#top{
+	margin:40px 0 0 600px;}
+div#top p{
+	margin:0;
+	line-height:20px;}
+div#top a{
+	text-shadow:none;}
+div#top a:hover{
+	text-decoration:none;}
+div#top h2{
+	font-size:21px;
+	margin:0 0 5px 0;
+	text-shadow:0 -1px 0 #ccc;}
+div#top span.day{
+	font-size:50px;
+	}
+
+/*----------------- #countdown,#promotion -----------------*/
+div#countdown,div#promotion{
+	width:300px;
+	padding:15px;
+	margin:0 0 10px 0;
+
+	/*どんなTOP絵がくるか分からないので影をいれています。
+	　いらないようでしたらコメントアウトか削除をしてください*/
+	text-shadow:0 1px 2px #000;}
+
+div#promotion h2{
+	text-align:left;
+	border-bottom:solid 1px #999;
+	font-size:16px;
+	text-shadow:0 1px 2px #000;}
+div#countdown p#old{
+	font-size:12px;
+	padding:0;}
+
+/*----------------- #contents -----------------*/
+div#contents{
+	width:848px;
+	padding:20px 51px;
+	border-radius:0 0 20px 20px;
+	box-shadow:1px 1px 3px #666;}
+
+div#contents h2{
+	padding:30px 0 5px 0;
+	margin:5px auto;}
+
+div#section{
+	width:392px;
+	margin:5px;
+	background:#efefef;
+	border:solid 1px #666;
+	padding:10px;
+	border-radius:5px;
+	height:80px;}
+div#section h3{
+	padding:0 0 2px 0;
+	margin:0 0 5px 0;}
+div#section2{
+	width:392px;
+	margin:5px;
+	background:#efefef;
+	border:solid 1px #666;
+	padding:10px;
+	border-radius:5px;
+	height:180px;}
+div#section2 h3{
+	padding:0 0 2px 0;
+	margin:0 0 5px 0;}
+
+div#staff a{
+	width:200px;
+	padding:6px 0;
+	background:#efefef;
+	border:solid 1px #666;
+	text-decoration:none;
+	border-radius:5px;
+	margin:5px;}
+div#staff a:hover{
+	background:#fff;}
+
+div#links img{
+	margin:0 0 5px 0;}

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<base target="_self" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/vdbook.js"></script>
+
+<title>桜色メリーメイカー | 同人ボイドラを聴こう！合同企画</title>
+</head>
+<body class="vd2">
+
+<p id="social"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="none" data-hashtags="M3春">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+
+<div id="container">
+<!--
+<div id="header">
+<h1>桜色メリーメイカー</h1>
+</div><!--/header-->
+
+<div style="border-radius: 20px 20px 0 0; height:100px; background-image: url('images/transfer.png');">
+<h1>桜色メリーメイカー</h1>
+</div>
+
+<div id="contents">
+	<a href="/">←同人ボイドラを聴こう！</a>
+<h2>STORY</h2>
+<p>
+春です。出会いの季節です。マジで勘弁してください。<br>
+<br>
+確かにたくさん出会いはしましたが、出会っただけです。<br>
+正直、人見知りはするし、しゃべるとすぐ噛むし、最近人気の歌とか興味ないしマンガ読まないし<br>
+何話したらいいかわかんないし。こんなんで友達ができるとか思ってないです。<br>
+<br>
+春なんか一生来なきゃいい。変化なんか一生なければいい。<br>
+ぬるーくゆるーく、おんなじことばっか繰り返して生きてたいんだ、俺は。<br>
+<br>
+<br>
+「いましたぁ。辛気くさーい顔の新入生ー。」<br>
+「なーに、ただの通りすがりのカッコイイ生徒会長さまとその手下だ。<br>
+　おい、そこの新入生、花見やるぞ花見！」<br>
+「……まあ、入学早々あれだけど、諦めて頑張って？」<br>
+<br>
+……春です。出会いの季節です。変なのに出会いました。
+
+</p>
+
+<h2>DRAMA</h2>
+<div id="section">
+<p>桜色メリーメイカー<br />
+<object type="application/x-shockwave-flash" data="player_mp3_mini.swf" width="300" height="30">
+         <param name="movie" value="player_mp3_mini.swf" />
+         <param name="buttoncolor" value="#ffffff" />
+         <param name="slidercolor" value="#ffffff" />
+         <param name="bgcolor" value="#333333" />
+         <param name="FlashVars" value="mp3=vd/merrymaker.mp3" />
+        </object></p>
+</div>
+<div id="section">
+<p>主題歌<br />
+<object type="application/x-shockwave-flash" data="player_mp3_mini.swf" width="300" height="30">
+         <param name="movie" value="player_mp3_mini.swf" />
+         <param name="buttoncolor" value="#ffffff" />
+         <param name="slidercolor" value="#ffffff" />
+         <param name="bgcolor" value="#333333" />
+         <param name="FlashVars" value="mp3=vd/merrymaker_song.mp3" />
+        </object></p>
+</div>
+
+
+
+<h2>STAFF</h2>
+<div id="staff">
+<a href="http://blank.sakura.ne.jp/">シナリオ・編集：椎菜みそら</a>
+<a href="http://sp-ss.com/snowdrop/nanairo/">主題歌歌唱・作詞：ちな</a>
+<a href="http://garasuegg.web.fc2.com/">主題歌作曲・MIX：飛鳥硝子</a>
+<a href="http://www.voiceblog.jp/tsukue-mitimiti/">渡瀬伊鶴役：水樹机</a>
+<a href="http://ruse3.kinugoshi.net/">朝来湊都役：和鳴るせ</a>
+<a href="http://ameblo.jp/kyoriss/">牧野琴子役：きょりす</a>
+<a href="http://hayakawasouta.blog.fc2.com/">日高翔役：はやかわそうた</a>
+<a href="http://spiralspirit.net/eruru/">穂積美鈴役：武田恵瑠々</a>
+<a>友人役：みやわ</a>
+</div>
+
+
+
+<address>Copyright &copy; <a href="http://dojin-music.info/">同人音楽.info</a> All Rights Reserved.</address>
+
+</div><!--/contents-->
+
+</div><!--/container-->
+</body>
+</html>
